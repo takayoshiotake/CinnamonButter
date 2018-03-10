@@ -22,6 +22,8 @@
 		12D69CBD2053BD42004D46FA /* GuruguruDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB72053BD42004D46FA /* GuruguruDialogContentView.xib */; };
 		12D69CBE2053BD42004D46FA /* GuruguruDialogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CB82053BD42004D46FA /* GuruguruDialogContentView.swift */; };
 		12D69CBF2053BD42004D46FA /* SliderDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */; };
+		12D69CCE20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */; };
+		12D69CD020540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,8 @@
 		12D69CB72053BD42004D46FA /* GuruguruDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuruguruDialogContentView.xib; sourceTree = "<group>"; };
 		12D69CB82053BD42004D46FA /* GuruguruDialogContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuruguruDialogContentView.swift; sourceTree = "<group>"; };
 		12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderDialogContentView.xib; sourceTree = "<group>"; };
+		12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CBNetworkInterfaceTest.storyboard; sourceTree = "<group>"; };
+		12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBNetworkInterfaceTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */,
 				12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */,
 				12D69CA92053BC2E004D46FA /* CBDialogContentView */,
+				12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */,
+				12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */,
 			);
 			path = Scenese;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D69CCE20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard in Resources */,
 				12748F1C2053B39700672AA8 /* LaunchScreen.storyboard in Resources */,
 				12748F192053B39700672AA8 /* Assets.xcassets in Resources */,
 				12D69CBC2053BD42004D46FA /* MessageDialogContentView.xib in Resources */,
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12D69CA62053BB3F004D46FA /* CBDialogControllerTestViewController.swift in Sources */,
+				12D69CD020540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift in Sources */,
 				12748F142053B39700672AA8 /* ViewController.swift in Sources */,
 				12748F122053B39700672AA8 /* AppDelegate.swift in Sources */,
 				12D69CBB2053BD42004D46FA /* MessageDialogContentView.swift in Sources */,

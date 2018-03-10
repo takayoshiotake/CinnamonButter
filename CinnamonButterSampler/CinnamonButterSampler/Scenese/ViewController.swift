@@ -22,7 +22,8 @@ class ViewController: UITableViewController {
     }
     
     let testSuites: [TestCase] = [
-        TestCase.init(title: "CBDialogController")
+        TestCase.init(title: "CBDialogController"),
+        TestCase.init(title: "CBNetworkInterface")
     ]
     
     // MARK: - UITableViewDelegate

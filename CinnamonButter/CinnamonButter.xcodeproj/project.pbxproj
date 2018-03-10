@@ -11,6 +11,8 @@
 		12D69CC22053C159004D46FA /* CBDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CC02053C159004D46FA /* CBDialogController.swift */; };
 		12D69CC32053C159004D46FA /* CBDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CC12053C159004D46FA /* CBDialogController.xib */; };
 		12D69CC52053C36A004D46FA /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CC42053C36A004D46FA /* UIView+.swift */; };
+		12D69CCB20540062004D46FA /* CBNetworkInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 12D69CC920540062004D46FA /* CBNetworkInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D69CCC20540062004D46FA /* CBNetworkInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CCA20540062004D46FA /* CBNetworkInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		12D69CC02053C159004D46FA /* CBDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBDialogController.swift; sourceTree = "<group>"; };
 		12D69CC12053C159004D46FA /* CBDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBDialogController.xib; sourceTree = "<group>"; };
 		12D69CC42053C36A004D46FA /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		12D69CC920540062004D46FA /* CBNetworkInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBNetworkInterface.h; sourceTree = "<group>"; };
+		12D69CCA20540062004D46FA /* CBNetworkInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBNetworkInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				12D69CC62053C372004D46FA /* Extensions */,
 				12D69CC02053C159004D46FA /* CBDialogController.swift */,
 				12D69CC12053C159004D46FA /* CBDialogController.xib */,
+				12D69CC920540062004D46FA /* CBNetworkInterface.h */,
+				12D69CCA20540062004D46FA /* CBNetworkInterface.m */,
 				12D69C902053B9A5004D46FA /* CinnamonButter.h */,
 				12D69C912053B9A5004D46FA /* Info.plist */,
 			);
@@ -77,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12D69C922053B9A5004D46FA /* CinnamonButter.h in Headers */,
+				12D69CCB20540062004D46FA /* CBNetworkInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 			files = (
 				12D69CC52053C36A004D46FA /* UIView+.swift in Sources */,
 				12D69CC22053C159004D46FA /* CBDialogController.swift in Sources */,
+				12D69CCC20540062004D46FA /* CBNetworkInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
