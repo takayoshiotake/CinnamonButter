@@ -22,6 +22,7 @@ class ViewController: UITableViewController {
     }
     
     let testSuites: [TestCase] = [
+        TestCase.init(title: "CBBarrierView"),
         TestCase.init(title: "CBDialogController"),
         TestCase.init(title: "CBNetworkInterface")
     ]

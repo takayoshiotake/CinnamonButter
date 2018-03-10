@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DKT-qI-QBR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Barrier View Test View Controller-->
+        <scene sceneID="P2V-Bh-NCs">
+            <objects>
+                <viewController id="DKT-qI-QBR" customClass="CBBarrierViewTestViewController" customModule="CinnamonButterSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s0q-fv-4g1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IM6-Tq-Bj5">
+                                <rect key="frame" x="137" y="482.5" width="100" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="GZN-gi-Fay"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                                <state key="normal" title="BARRIER"/>
+                                <connections>
+                                    <action selector="didTapBarrierButton:" destination="DKT-qI-QBR" eventType="touchUpInside" id="7eT-Hj-gA2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IM6-Tq-Bj5" firstAttribute="centerX" secondItem="s0q-fv-4g1" secondAttribute="centerX" id="RR3-V9-dwi"/>
+                            <constraint firstItem="IM6-Tq-Bj5" firstAttribute="centerY" secondItem="s0q-fv-4g1" secondAttribute="centerY" multiplier="1.5" id="ZcH-ee-1UH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5ah-bO-V8h"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADE-VJ-hRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71" y="6"/>
+        </scene>
+    </scenes>
+</document>

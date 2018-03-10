@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CBBarrierView" customModule="CinnamonButter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xl-uD-HKA">
+                    <rect key="frame" x="145" y="290.5" width="85" height="85"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="evd-0d-JWP">
+                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="0cn-aI-Ytb">
+                                <rect key="frame" x="24" y="24" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="0cn-aI-Ytb" firstAttribute="leading" secondItem="evd-0d-JWP" secondAttribute="leading" constant="24" id="69L-a7-bjN"/>
+                            <constraint firstAttribute="bottom" secondItem="0cn-aI-Ytb" secondAttribute="bottom" constant="24" id="NTc-Op-rLu"/>
+                            <constraint firstAttribute="trailing" secondItem="0cn-aI-Ytb" secondAttribute="trailing" constant="24" id="c6n-Br-nll"/>
+                            <constraint firstItem="0cn-aI-Ytb" firstAttribute="centerY" secondItem="evd-0d-JWP" secondAttribute="centerY" id="cWX-CW-F4t"/>
+                            <constraint firstItem="0cn-aI-Ytb" firstAttribute="centerX" secondItem="evd-0d-JWP" secondAttribute="centerX" id="gvl-AZ-fYN"/>
+                            <constraint firstItem="0cn-aI-Ytb" firstAttribute="top" secondItem="evd-0d-JWP" secondAttribute="top" constant="24" id="nqu-oO-ZMe"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="prominent"/>
+                </visualEffectView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="8Xl-uD-HKA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Knx-ea-WO2"/>
+                <constraint firstItem="8Xl-uD-HKA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bsm-T2-qfE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="j80-LZ-xAd"/>
+            <connections>
+                <outlet property="activityIndicatorView" destination="0cn-aI-Ytb" id="8WZ-v3-wWk"/>
+                <outlet property="barrierView" destination="8Xl-uD-HKA" id="t8t-2a-Fzd"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -12,6 +12,8 @@
 		12748F172053B39700672AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12748F152053B39700672AA8 /* Main.storyboard */; };
 		12748F192053B39700672AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12748F182053B39700672AA8 /* Assets.xcassets */; };
 		12748F1C2053B39700672AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12748F1A2053B39700672AA8 /* LaunchScreen.storyboard */; };
+		12B28609205436DB00368A11 /* CBBarrierViewTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B28608205436DB00368A11 /* CBBarrierViewTest.storyboard */; };
+		12B2860B2054370100368A11 /* CBBarrierViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2860A2054370100368A11 /* CBBarrierViewTestViewController.swift */; };
 		12D69CA22053BABF004D46FA /* CinnamonButter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D69CA12053BABF004D46FA /* CinnamonButter.framework */; };
 		12D69CA32053BABF004D46FA /* CinnamonButter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12D69CA12053BABF004D46FA /* CinnamonButter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12D69CA62053BB3F004D46FA /* CBDialogControllerTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */; };
@@ -24,6 +26,7 @@
 		12D69CBF2053BD42004D46FA /* SliderDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */; };
 		12D69CCE20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */; };
 		12D69CD020540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */; };
+		12D69CD220542567004D46FA /* App+CinnamonButter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CD120542567004D46FA /* App+CinnamonButter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +51,8 @@
 		12748F182053B39700672AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12748F1B2053B39700672AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12748F1D2053B39700672AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B28608205436DB00368A11 /* CBBarrierViewTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CBBarrierViewTest.storyboard; sourceTree = "<group>"; };
+		12B2860A2054370100368A11 /* CBBarrierViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBBarrierViewTestViewController.swift; sourceTree = "<group>"; };
 		12D69CA12053BABF004D46FA /* CinnamonButter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CinnamonButter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBDialogControllerTestViewController.swift; sourceTree = "<group>"; };
 		12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CBDialogControllerTest.storyboard; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderDialogContentView.xib; sourceTree = "<group>"; };
 		12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CBNetworkInterfaceTest.storyboard; sourceTree = "<group>"; };
 		12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBNetworkInterfaceTestViewController.swift; sourceTree = "<group>"; };
+		12D69CD120542567004D46FA /* App+CinnamonButter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+CinnamonButter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		12748F102053B39700672AA8 /* CinnamonButterSampler */ = {
 			isa = PBXGroup;
 			children = (
+				12D69CD120542567004D46FA /* App+CinnamonButter.swift */,
 				12748F112053B39700672AA8 /* AppDelegate.swift */,
 				12748F232053B39F00672AA8 /* Scenese */,
 				12748F182053B39700672AA8 /* Assets.xcassets */,
@@ -110,8 +117,10 @@
 				12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */,
 				12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */,
 				12D69CA92053BC2E004D46FA /* CBDialogContentView */,
-				12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */,
 				12D69CCD20540F9B004D46FA /* CBNetworkInterfaceTest.storyboard */,
+				12D69CCF20540FB7004D46FA /* CBNetworkInterfaceTestViewController.swift */,
+				12B28608205436DB00368A11 /* CBBarrierViewTest.storyboard */,
+				12B2860A2054370100368A11 /* CBBarrierViewTestViewController.swift */,
 			);
 			path = Scenese;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 				12748F172053B39700672AA8 /* Main.storyboard in Resources */,
 				12D69CAB2053BC69004D46FA /* CBDialogControllerTest.storyboard in Resources */,
 				12D69CBF2053BD42004D46FA /* SliderDialogContentView.xib in Resources */,
+				12B28609205436DB00368A11 /* CBBarrierViewTest.storyboard in Resources */,
 				12D69CBD2053BD42004D46FA /* GuruguruDialogContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +231,8 @@
 				12748F122053B39700672AA8 /* AppDelegate.swift in Sources */,
 				12D69CBB2053BD42004D46FA /* MessageDialogContentView.swift in Sources */,
 				12D69CBA2053BD42004D46FA /* SliderDialogContentView.swift in Sources */,
+				12B2860B2054370100368A11 /* CBBarrierViewTestViewController.swift in Sources */,
+				12D69CD220542567004D46FA /* App+CinnamonButter.swift in Sources */,
 				12D69CBE2053BD42004D46FA /* GuruguruDialogContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

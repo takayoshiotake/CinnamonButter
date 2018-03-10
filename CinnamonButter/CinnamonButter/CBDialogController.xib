@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBDialogController" customModule="CinnamonButterSampler" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBDialogController" customModule="CinnamonButter" customModuleProvider="target">
             <connections>
                 <outlet property="affirmativeButton" destination="of9-n7-Hwf" id="5Rc-d1-i7J"/>
                 <outlet property="dialogView" destination="vu2-t1-dev" id="28W-gh-m8I"/>
@@ -115,7 +115,7 @@
                 <constraint firstItem="vu2-t1-dev" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N8x-YW-Lpz"/>
                 <constraint firstItem="vu2-t1-dev" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="c1F-nf-qup"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <viewLayoutGuide key="safeArea" id="PL9-oF-RLc"/>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
