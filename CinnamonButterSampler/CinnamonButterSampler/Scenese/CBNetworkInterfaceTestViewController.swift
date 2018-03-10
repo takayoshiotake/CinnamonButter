@@ -39,9 +39,16 @@ class CBNetworkInterfaceTestViewController: UITableViewController {
     // MARK: -
     
     @objc func didPullRefresh(_ sender: UIRefreshControl) {
-        self.updateNetworkInterfaces()
-        self.tableView.reloadData()
-        sender.endRefreshing()
+        // TEST: Wait 3 seconds
+        dataReloader = DispatchWorkItem.init(block: { [weak self] in
+            guard let `self` = self else {
+                return
+            }
+            self.updateNetworkInterfaces()
+            self.tableView.reloadData()
+            sender.endRefreshing()
+        })
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3, execute: dataReloader!)
     }
 
     // MARK: - UITableViewDataSource
