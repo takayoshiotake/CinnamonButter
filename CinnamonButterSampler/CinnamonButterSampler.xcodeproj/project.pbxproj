@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12748F122053B39700672AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748F112053B39700672AA8 /* AppDelegate.swift */; };
+		12748F142053B39700672AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748F132053B39700672AA8 /* ViewController.swift */; };
+		12748F172053B39700672AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12748F152053B39700672AA8 /* Main.storyboard */; };
+		12748F192053B39700672AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12748F182053B39700672AA8 /* Assets.xcassets */; };
+		12748F1C2053B39700672AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12748F1A2053B39700672AA8 /* LaunchScreen.storyboard */; };
+		12D69CA22053BABF004D46FA /* CinnamonButter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D69CA12053BABF004D46FA /* CinnamonButter.framework */; };
+		12D69CA32053BABF004D46FA /* CinnamonButter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12D69CA12053BABF004D46FA /* CinnamonButter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12D69CA62053BB3F004D46FA /* CBDialogControllerTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */; };
+		12D69CAB2053BC69004D46FA /* CBDialogControllerTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */; };
+		12D69CBA2053BD42004D46FA /* SliderDialogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CB42053BD42004D46FA /* SliderDialogContentView.swift */; };
+		12D69CBB2053BD42004D46FA /* MessageDialogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CB52053BD42004D46FA /* MessageDialogContentView.swift */; };
+		12D69CBC2053BD42004D46FA /* MessageDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB62053BD42004D46FA /* MessageDialogContentView.xib */; };
+		12D69CBD2053BD42004D46FA /* GuruguruDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB72053BD42004D46FA /* GuruguruDialogContentView.xib */; };
+		12D69CBE2053BD42004D46FA /* GuruguruDialogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D69CB82053BD42004D46FA /* GuruguruDialogContentView.swift */; };
+		12D69CBF2053BD42004D46FA /* SliderDialogContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12D69CA42053BAC0004D46FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				12D69CA32053BABF004D46FA /* CinnamonButter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12748F0E2053B39700672AA8 /* CinnamonButterSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinnamonButterSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12748F112053B39700672AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12748F132053B39700672AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12748F162053B39700672AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12748F182053B39700672AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12748F1B2053B39700672AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12748F1D2053B39700672AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D69CA12053BABF004D46FA /* CinnamonButter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CinnamonButter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBDialogControllerTestViewController.swift; sourceTree = "<group>"; };
+		12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CBDialogControllerTest.storyboard; sourceTree = "<group>"; };
+		12D69CB42053BD42004D46FA /* SliderDialogContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderDialogContentView.swift; sourceTree = "<group>"; };
+		12D69CB52053BD42004D46FA /* MessageDialogContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDialogContentView.swift; sourceTree = "<group>"; };
+		12D69CB62053BD42004D46FA /* MessageDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageDialogContentView.xib; sourceTree = "<group>"; };
+		12D69CB72053BD42004D46FA /* GuruguruDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuruguruDialogContentView.xib; sourceTree = "<group>"; };
+		12D69CB82053BD42004D46FA /* GuruguruDialogContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuruguruDialogContentView.swift; sourceTree = "<group>"; };
+		12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderDialogContentView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12748F0B2053B39700672AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D69CA22053BABF004D46FA /* CinnamonButter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12748F052053B39700672AA8 = {
+			isa = PBXGroup;
+			children = (
+				12748F102053B39700672AA8 /* CinnamonButterSampler */,
+				12D69C5F2053B6AA004D46FA /* Frameworks */,
+				12748F0F2053B39700672AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12748F0F2053B39700672AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12748F0E2053B39700672AA8 /* CinnamonButterSampler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12748F102053B39700672AA8 /* CinnamonButterSampler */ = {
+			isa = PBXGroup;
+			children = (
+				12748F112053B39700672AA8 /* AppDelegate.swift */,
+				12748F232053B39F00672AA8 /* Scenese */,
+				12748F182053B39700672AA8 /* Assets.xcassets */,
+				12748F1D2053B39700672AA8 /* Info.plist */,
+			);
+			path = CinnamonButterSampler;
+			sourceTree = "<group>";
+		};
+		12748F232053B39F00672AA8 /* Scenese */ = {
+			isa = PBXGroup;
+			children = (
+				12748F1A2053B39700672AA8 /* LaunchScreen.storyboard */,
+				12748F152053B39700672AA8 /* Main.storyboard */,
+				12748F132053B39700672AA8 /* ViewController.swift */,
+				12D69CAA2053BC69004D46FA /* CBDialogControllerTest.storyboard */,
+				12D69CA52053BB3F004D46FA /* CBDialogControllerTestViewController.swift */,
+				12D69CA92053BC2E004D46FA /* CBDialogContentView */,
+			);
+			path = Scenese;
+			sourceTree = "<group>";
+		};
+		12D69C5F2053B6AA004D46FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D69CA12053BABF004D46FA /* CinnamonButter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12D69CA92053BC2E004D46FA /* CBDialogContentView */ = {
+			isa = PBXGroup;
+			children = (
+				12D69CB52053BD42004D46FA /* MessageDialogContentView.swift */,
+				12D69CB62053BD42004D46FA /* MessageDialogContentView.xib */,
+				12D69CB82053BD42004D46FA /* GuruguruDialogContentView.swift */,
+				12D69CB72053BD42004D46FA /* GuruguruDialogContentView.xib */,
+				12D69CB42053BD42004D46FA /* SliderDialogContentView.swift */,
+				12D69CB92053BD42004D46FA /* SliderDialogContentView.xib */,
+			);
+			path = CBDialogContentView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12748F0D2053B39700672AA8 /* CinnamonButterSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12748F202053B39700672AA8 /* Build configuration list for PBXNativeTarget "CinnamonButterSampler" */;
+			buildPhases = (
+				12748F0A2053B39700672AA8 /* Sources */,
+				12748F0B2053B39700672AA8 /* Frameworks */,
+				12748F0C2053B39700672AA8 /* Resources */,
+				12D69CA42053BAC0004D46FA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinnamonButterSampler;
+			productName = CinnamonButterSampler;
+			productReference = 12748F0E2053B39700672AA8 /* CinnamonButterSampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12748F062053B39700672AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "OTAKE Takayoshi";
+				TargetAttributes = {
+					12748F0D2053B39700672AA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 12748F092053B39700672AA8 /* Build configuration list for PBXProject "CinnamonButterSampler" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12748F052053B39700672AA8;
+			productRefGroup = 12748F0F2053B39700672AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12748F0D2053B39700672AA8 /* CinnamonButterSampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12748F0C2053B39700672AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12748F1C2053B39700672AA8 /* LaunchScreen.storyboard in Resources */,
+				12748F192053B39700672AA8 /* Assets.xcassets in Resources */,
+				12D69CBC2053BD42004D46FA /* MessageDialogContentView.xib in Resources */,
+				12748F172053B39700672AA8 /* Main.storyboard in Resources */,
+				12D69CAB2053BC69004D46FA /* CBDialogControllerTest.storyboard in Resources */,
+				12D69CBF2053BD42004D46FA /* SliderDialogContentView.xib in Resources */,
+				12D69CBD2053BD42004D46FA /* GuruguruDialogContentView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12748F0A2053B39700672AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D69CA62053BB3F004D46FA /* CBDialogControllerTestViewController.swift in Sources */,
+				12748F142053B39700672AA8 /* ViewController.swift in Sources */,
+				12748F122053B39700672AA8 /* AppDelegate.swift in Sources */,
+				12D69CBB2053BD42004D46FA /* MessageDialogContentView.swift in Sources */,
+				12D69CBA2053BD42004D46FA /* SliderDialogContentView.swift in Sources */,
+				12D69CBE2053BD42004D46FA /* GuruguruDialogContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12748F152053B39700672AA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12748F162053B39700672AA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12748F1A2053B39700672AA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12748F1B2053B39700672AA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12748F1E2053B39700672AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12748F1F2053B39700672AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12748F212053B39700672AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CinnamonButterSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayoshiotake.CinnamonButterSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12748F222053B39700672AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CinnamonButterSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayoshiotake.CinnamonButterSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12748F092053B39700672AA8 /* Build configuration list for PBXProject "CinnamonButterSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12748F1E2053B39700672AA8 /* Debug */,
+				12748F1F2053B39700672AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12748F202053B39700672AA8 /* Build configuration list for PBXNativeTarget "CinnamonButterSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12748F212053B39700672AA8 /* Debug */,
+				12748F222053B39700672AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12748F062053B39700672AA8 /* Project object */;
+}
