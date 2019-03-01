@@ -36,8 +36,7 @@ public extension UIView {
         block {
             if Thread.isMainThread {
                 barrierView.removeFromSuperview()
-            }
-            else {
+            } else {
                 DispatchQueue.main.async {
                     barrierView.removeFromSuperview()
                 }
@@ -45,4 +44,3 @@ public extension UIView {
         }
     }
 }
-

@@ -96,8 +96,7 @@ open class CBDialogController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func didTapAffirmativeButton(_ sender: UIButton) {
         if let delegate = delegate {
             delegate.dialogController(self, didAction: .affirm)
-        }
-        else {
+        } else {
             // Warning
             dismiss(animated: true, completion: nil)
         }
@@ -106,8 +105,7 @@ open class CBDialogController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func didTapNegativeButton(_ sender: UIButton) {
         if let delegate = delegate {
             delegate.dialogController(self, didAction: .negate)
-        }
-        else {
+        } else {
             // Warning
             dismiss(animated: true, completion: nil)
         }
@@ -122,8 +120,7 @@ open class CBDialogController: UIViewController, UIGestureRecognizerDelegate {
         if !dialogView.bounds.contains(touch.location(in: dialogView)) {
             if let delegate = delegate {
                 delegate.dialogController(self, didAction: .cancel)
-            }
-            else {
+            } else {
                 // Warning
                 dismiss(animated: true, completion: nil)
             }
@@ -139,18 +136,15 @@ public extension UIViewController {
     func CBPresentOrReplace(_ dialogControllerToPresent: CBDialogController, animated: Bool, completion: (() ->Void)?) {
         if presentedViewController == nil {
             present(dialogControllerToPresent, animated: animated, completion: completion)
-        }
-        else if let presentedDialog = presentedViewController as? CBDialogController {
+        } else if let presentedDialog = presentedViewController as? CBDialogController {
             if presentedDialog.priority > dialogControllerToPresent.priority {
                 // Warning, already presented a highly priority dialog
                 present(dialogControllerToPresent, animated: animated, completion: completion)
-            }
-            else {
+            } else {
                 // Replace the dialog to keep dim
                 presentedDialog.reload(from: dialogControllerToPresent)
             }
-        }
-        else {
+        } else {
             // Warning, already presented a UIViewController
             present(dialogControllerToPresent, animated: animated, completion: completion)
         }

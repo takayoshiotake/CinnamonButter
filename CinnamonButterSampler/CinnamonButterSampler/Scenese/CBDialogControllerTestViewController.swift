@@ -44,8 +44,7 @@ class CBDialogControllerTestViewController: UIViewController, CBDialogController
                 dialog.delegate = self
                 dialog.userInfo = "SliderDialog"
                 CBPresentOrReplace(dialog, animated: true, completion: nil)
-            }
-            else {
+            } else {
                 dismiss(animated: true, completion: nil)
             }
         case "SliderDialog":
@@ -58,8 +57,7 @@ class CBDialogControllerTestViewController: UIViewController, CBDialogController
                 dialog.delegate = self
                 dialog.userInfo = "WarningDialog"
                 CBPresentOrReplace(dialog, animated: true, completion: nil)
-            }
-            else {
+            } else {
                 dismiss(animated: true, completion: nil)
             }
         case "TimeoutDialog":
