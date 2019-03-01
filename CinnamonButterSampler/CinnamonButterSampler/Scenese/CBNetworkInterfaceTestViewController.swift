@@ -23,7 +23,7 @@ class CBNetworkInterfaceTestViewController: UITableViewController {
         updateNetworkInterfaces()
     }
     
-    override func willMove(toParentViewController parent: UIViewController?) {
+    override func willMove(toParent parent: UIViewController?) {
         if parent == nil {
             dataReloader?.cancel()
         }
